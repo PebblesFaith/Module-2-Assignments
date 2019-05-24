@@ -1,8 +1,14 @@
+/* Create variable WeatherName to store user window prompt entry. */
 var weatherName = window.prompt("Please enter weather condition in your location, such as sunny, cloudy, rainy, windy, or snowy (typed in all lowercase):");
 
-var weatherid = document.getElementById("weather");
-weatherid.innerHTML += " " + weatherName;
+/* Create variable weatherIdSentence to retrieve id element then add user entry to
+    the end of H3 sentence heading.*/
+var weatherIdSentence = document.getElementById("weather");
+weatherIdSentence.innerHTML += " " + weatherName;
 
+/* Create if and else statements to perform weather conditions and evaluations analytics
+   on the basis of user entry on today's weather. */
+  
 if (weatherName == "sunny") {
     document.write("You will have a great day!")
 }
@@ -16,7 +22,7 @@ if (weatherName == "sunny") {
         }
 
             else if (weatherName == "windy") {
-                document.write("Please do not take a hat with you outside, your hat will blow away from strong wind.")
+                document.write("Please do not take a hat with you outside, your hat will blow away from strong winds.")
             }
 
                 else if (weatherName == "snowy") {
@@ -25,7 +31,6 @@ if (weatherName == "sunny") {
                 }
 
     else {
-
-        document.write("<br>")
-        document.write("You have typed in an incorrect weather condition!")
+        document.write("<br>");
+        document.write("You have typed in an incorrect weather condition!");
     }
