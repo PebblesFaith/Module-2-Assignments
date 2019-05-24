@@ -2,12 +2,12 @@
 var testPoint = parseInt(window.prompt("What is your total test point?"));
 
 /* Create variable testSentence to retrieve id element then add user entry to
-   window prompt message. */
+   the end of H3 heading. */
 var testSentence = document.getElementById("score");
 testSentence.innerHTML += " " + testPoint;
 
 /* Create if and else statements to perform ranges of user test results operation; in 
-   order for user to retrieve test score final results. */
+   order for the user to retrieve test score final results. */
 
 var a = 20;
 var b = 18;
