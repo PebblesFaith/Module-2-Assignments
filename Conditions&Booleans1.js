@@ -62,6 +62,13 @@ var seventhNameContinent = window.prompt("Enter the seventh (7th) continent name
 var seventhQuestionContinent = document.getElementById("seventhContinent");
 seventhQuestionContinent.innerHTML += " " + seventhNameContinent;
 
+/* Create local function for user to refresh page.*/ 
+document.write("<br>");
+function refreshPage(){
+    window.location.reload();
+    document.write("<br>");
+    document.write("<br>");
+} 
 
 
 /* Create variables and assign them to the seven (7) continent names. */
@@ -167,8 +174,3 @@ else {
 
 
 
-/* Create local function for user to refresh page.*/ 
-document.write("<br>");
-function refreshPage(){
-    window.location.reload();
-} 
