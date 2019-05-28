@@ -6,7 +6,7 @@ var testPoint = parseInt(window.prompt("Enter your test grade:"));
 var testSentence = document.getElementById("score");
 testSentence.innerHTML += " " + testPoint;
 
-/* Create if and else statements to perform ranges on analytics operation
+/* Create if and else statements to perform ranges of analytics operation
    from user entry test score results; in order for the user to retrieve their
    course final test score. */
 
