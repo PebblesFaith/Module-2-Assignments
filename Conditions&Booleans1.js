@@ -62,10 +62,7 @@ var seventhNameContinent = window.prompt("Enter the seventh (7th) continent name
 var seventhQuestionContinent = document.getElementById("seventhContinent");
 seventhQuestionContinent.innerHTML += " " + seventhNameContinent;
 
-/* Create local function for user to refresh page.*/ 
-function refreshPage(){
-    window.location.reload();
-} 
+
 
 /* Create variables and assign them to the seven (7) continent names. */
 var a = "AFRICA";
@@ -164,7 +161,14 @@ if (seventhNameContinent !== g) {
 else {
     document.write("<br>");
     document.write("You will need to start over!")
+    document.write("<br>");
+    document.write("<br>");
 }
 
+
+
+/* Create local function for user to refresh page.*/ 
 document.write("<br>");
-document.write("<br>");
+function refreshPage(){
+    window.location.reload();
+} 
