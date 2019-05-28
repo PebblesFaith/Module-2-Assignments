@@ -1,0 +1,17 @@
+/* Code webpage body's background color and style fonts. */
+body {
+    background-color: rgb(95, 73, 141);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* Design user style button to match webpage. */
+button {
+    background-color: rgb(95, 73, 141); 
+    font-family: 'Times New Roman', Times, serif;
+    width: 160px;
+    height: 30px; 
+    font-size: 18px;
+    color: white;
+}
