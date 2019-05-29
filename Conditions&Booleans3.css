@@ -1,0 +1,50 @@
+/* Code webpage body's background color and style fonts. */
+body {
+    background-color: rgb(134, 132, 118);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+    
+}
+
+/* Create row container to house one (1) individual  column. */ 
+.flex-container {
+    margin-top: 0px;  
+    display: flex;
+    flex-wrap: wrap;    
+    border-top: 50px  rgba(134, 132, 118, 0.794) solid; 
+    border-left: 50px  rgba(134, 132, 118, 0.924) solid;
+    border-right: 50px  rgba(134, 132, 118, 0.924) solid; 
+    border-bottom: 50px  rgba(134, 132, 118, 0.746) solid; 
+    background-color: rgb(195, 193, 162);   
+    margin-top: 30px;   
+    align-items: center;
+    justify-content: center;   
+}
+
+ /* Create one (1) column container inside rows in order to places four (4) section
+  inside the one (1) container.*/ 
+
+.flex-container div {
+    display: flex;    
+    flex: 70%;
+    max-width: 70%;    
+    background-color: rgb(112, 133, 101);
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif;     
+    font-size: 15px;    
+    text-align: center; 
+    color: rgb(255, 255, 255);     
+    align-items: center;
+    justify-content: center;   
+}
+
+/* Create p1 class for border font styles. */
+.p1 {
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+
+}
+
