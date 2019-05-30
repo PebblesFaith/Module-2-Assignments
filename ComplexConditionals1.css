@@ -1,0 +1,75 @@
+/* Add background color to the body of my 'Complex Conditionals' assignment 1. */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(206, 200, 140);
+}
+
+/* Create row container to house one (1) individual  column. */ 
+.flex-container1 {
+    margin-top: 0px;  
+    display: flex;
+    flex-wrap: wrap;    
+    border-top: 50px  rgba(228, 227, 207, 0.911) solid; 
+    border-left: 50px  rgba(228, 227, 207, 0.63) solid; 
+    border-right: 50px  rgba(228, 227, 207, 0.63) solid; 
+    border-bottom: 50px  rgba(228, 227, 207, 0.911) solid; 
+    background-color: rgb(183, 200, 206); 
+    align-items: center;
+    justify-content: center;   
+}
+
+ /* Create one (1) column container inside rows in order to places four (4) section
+  inside the one (1) container.*/ 
+  .flex-container1 > div {
+    display: flex;    
+    flex: 71%;
+    max-width: 71%;    
+    background-color: rgba(40, 58, 40, 0.739);
+    border: 10px rgb(203, 226, 233) solid;                               
+    font-family: 'Book Antiqua', Times, serif;     
+    font-size: 20px;    
+    text-align: center; 
+    color: rgb(255, 255, 255);     
+    align-items: center;
+    justify-content: center;
+}
+
+/* Create class element for aligning texts and font styles. */
+.format1 {
+    text-align: left;   
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+}
+
+/* Create id element for border size and font styles. */
+#statements1 {
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);  
+}
+
+/* Create id element for border size and font styles. */
+#statements2 {
+    border: 10px rgb(228, 227, 207) solid;                               
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 18px;
+    color: rgb(255, 255, 255);  
+}
+
+/* Create p1 class for border font styles. */
+.p1 {
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
