@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Complex Conditionals</title>
+
+    <link href="ComplexConditionals1.css" rel="stylesheet" />
+
+</head>
+<body>
+
+    <!--Create div class 'flex-container' to store all HTML, CSS and JavaScript
+programmatic languages in one (1) container frame for my 'Complex Conditionals'
+assignment 1 webpage. -->   
+<div class="flex-container1">
+        <div class="flex-container1"></div>
+            <div>
+                <h2 id="flex-container2">Complex Conditionals</h2> 
+            </div>  
+            
+            <div>
+                <!--Create paragraph in order to display 'Complex Conditionals' assignment 1 instruction.-->
+                <div>
+                    <span>
+                    <p>Try it yourself</p>
+                    <p>1)  Add an else statement to the if-statement above that will output
+                           the text "Both numbers are not even." Verify that this text is 
+                           displayed in the document when x and y are not both even. 
+                    </p>
+                    <p>2)  Add another if-else statement that uses the OR (||) operator
+                           to determine if at least 1 number is odd. Print the message
+                           "At least 1 number is odd" if true, otherwise print "neither
+                           number is odd."
+                    </p>
+                    <br>
+    
+                    </p>
+                    <h4>Section 1</h4>
+                    <p class="format1">var x = 45;
+                        <br>
+                        var y = 24;
+                        <br> 
+                        if (x % 2 == 0 && y % 2 == 0) {
+                            <br>
+                            document.getElementById("statements1").innerHTML = "The x % 2 == 0 && y % 2 == 0 is both true.";
+                            <br>               
+                            }
+                            <br>
+                            else {
+                            <br>
+                            document.getElementById("statements1").innerHTML = "The x % 2 == 0 && y % 2 == 0 is both not true but false.";
+                            <br>
+                             }
+                            <br>
+                            <br>
+                    </p>
+                        <h4>Section 2</h4>
+                        <p class="format1">var x = 45;
+                                <br>
+                                var y = 24;
+                                <br>
+                        if (x % 2 == 0 || y % 2 == 0) {
+                            <br>
+                            document.getElementById("statements2").innerHTML = "The " + x + " % 2 == 0 and " + y + " % 2 == 0 at least one (1) number is true.;
+                            <br>               
+                            }
+                            <br>
+                            else {
+                            <br>
+                            document.getElementById("statements2").innerHTML =  "The " + x + " % 2 == 0 and " + y + " % 2 == 0 neither number is odd.";
+                             <br>
+                             }</p>
+                            <br>
+                            <br>                
+                    </span>
+                </div>
+    
+            </div> 
+    
+            <div>
+                <div>
+                    <!--Create paragraph in order to display id elements statement 1 and statement 2
+                    results.-->
+                    <p id="statements1">
+                    <br>  
+                    </p>
+                
+                    <p id="statements2">
+                    <br>  
+                    </p>
+                </div>
+            </div>
+    
+        <script src="ComplexConditionals1.js"></script>
+    
+    <!--Create html ownership footer for my 'Complex Conditionals' assignment 1 webpage.-->
+        <div>
+            <p class="p1">This webpage is design by Sarai Hannah Ajai. 
+            <br>
+            In regards to her Edx.org Microsoft (Dev 279x) 'Building Interactive
+            Prototypes using JavaScript' online course for Module 2, try it yourself in evaluating 'Complex Conditional Assignment 1'.
+            <br>
+            Dated on May 29, 2019</p>
+        </div>
+      
+</body>
+</html>
