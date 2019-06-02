@@ -14,14 +14,6 @@
      
     
 
-      var countOne = 0;
-
-      while (CountOne < 51) {
-        document.write(countOne + " ");
-        CountOne++;
-      }
-
-      
 
     
 
