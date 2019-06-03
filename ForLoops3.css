@@ -1,0 +1,66 @@
+/* Add background color to the body of my 'For Loop' assignment 3. */
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(117, 117, 109);
+}
+
+/* Create row container to house one (1) individual  column. */ 
+.flex-container1 {
+    margin-top:23px;  
+    display: flex;
+    flex-wrap: wrap;    
+    border-top: 50px  rgba(218, 134, 192, 0.91) solid; 
+    border-left: 50px  rgba(218, 134, 192, 0.63) solid; 
+    border-right: 50px  rgba(218, 134, 192, 0.63) solid; 
+    border-bottom: 50px  rgba(218, 134, 192, 0.911) solid; 
+    background-color: rgb(116, 116, 107); 
+    align-items: center;
+    justify-content: center;   
+}
+
+ /* Create one (1) column container inside rows in order to places four (4) section
+  inside the one (1) container.*/ 
+  .flex-container1 > div {
+    display: flex;    
+    flex: 71%;
+    max-width: 71%;    
+    background-color: rgba(68, 44, 12, 0.883);
+    border: 10px rgb(233, 231, 203) solid;                               
+    font-family: 'Book Antiqua', Times, serif;     
+    font-size: 20px;    
+    text-align: center; 
+    color: rgb(255, 255, 255);     
+    align-items: center;
+    justify-content: center;
+}
+
+/* Create class element for aligning texts and font styles. */
+.pbody {
+    text-align: left;   
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/* Create class element for aligning texts and font styles. */
+.format1 {
+    text-align: left;   
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/* Create p1 class for border font styles. */
+.p1 {
+    font-family: 'Book Antiqua', Times, serif; 
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
